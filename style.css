@@ -1,0 +1,26 @@
+/* estilos para o modo normal */
+body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #c9c9c9;
+    color: #1e1e1e;
+    padding: 5px;
+}
+
+/* estilos para o modo dark */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.fa-moon{
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    /* border-radius: 30px;
+    padding: 10px 20px; */
+    cursor: pointer;
+    font-size: 18px;
+}
